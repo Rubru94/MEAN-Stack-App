@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "6d6bba47-6b22-4931-bf72-5ca339f5315d",
-		"name": "MEAN stack app",
+		"name": "MEAN-stack-app",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -20,12 +20,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials"
@@ -49,16 +47,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials/6079d9b30d4cea6e294639fb",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials/6079de2cfd08e577809aae05",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials",
-						"6079d9b30d4cea6e294639fb"
+						"6079de2cfd08e577809aae05"
 					]
 				}
 			},
@@ -79,16 +75,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials/6079d9b30d4cea6e294639fb",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials/607a04ff225cf4d6b80be639",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials",
-						"6079d9b30d4cea6e294639fb"
+						"607a04ff225cf4d6b80be639"
 					]
 				}
 			},
@@ -109,12 +103,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials"
@@ -141,12 +133,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials"
@@ -173,12 +163,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials?title=mean",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials?title=mean",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials"
@@ -211,12 +199,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials/6079d81d0d4cea6e294639fa",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials/6079d81d0d4cea6e294639fa",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials",
@@ -244,12 +230,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/tutorials/published",
-					"protocol": "http",
+					"raw": "{{SERVER_HOST}}/api/tutorials/published",
 					"host": [
-						"localhost"
+						"{{SERVER_HOST}}"
 					],
-					"port": "8080",
 					"path": [
 						"api",
 						"tutorials",
