@@ -9,7 +9,7 @@ Node.js Restful CRUD API with Node.js, Express, Angular and MongoDB
 
 # Frontend
 ### Path: 
-- ./frontend/Angular11ClientCrud
+- ./frontend
 ### Run: 
 - ng serve --port `PORT`
 
